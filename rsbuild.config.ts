@@ -3,4 +3,8 @@ import { pluginReact } from '@rsbuild/plugin-react';
 
 export default defineConfig({
   plugins: [pluginReact()],
+  html: {
+    favicon: './public/favicon.ico',
+    template: './public/index.html',
+  },
 });
