@@ -90,7 +90,9 @@ export default function TeamSection() {
                 <div className="px-2 pt-2 sm:pb-0 sm:pt-4">
                   <div className="flex justify-between">
                     <h3 className="text-title text-base font-medium transition-all duration-500 group-hover:tracking-wider is-in-view:tracking-wider">
-                      {member.name}
+                      <a href={member.link} target="_blank" rel="noreferrer">
+                        {member.name}
+                      </a>
                     </h3>
                     <span className="text-xs">{member.role}</span>
                   </div>

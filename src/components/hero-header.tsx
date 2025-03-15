@@ -108,12 +108,20 @@ export const HeroHeader = () => {
                   size="sm"
                   className="h-[2.14rem]"
                 >
-                  <a href="#">
+                  <a
+                    href="mailto:aliezzahn@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span>Contact</span>
                   </a>
                 </Button>
                 <Button asChild size="sm" className="h-8">
-                  <a href="#">
+                  <a
+                    href="https://github.com/digibrand-co"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <div className="flex justify-center items-center">
                       <Github className="size-4" />
                       <span>Github</span>
