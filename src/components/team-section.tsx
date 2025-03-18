@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import aliezzahnPhoto from '@/static/image/aliezzahn.jpg';
 import morihnPhoto from '@/static/image/morihn.jpg';
+import amirMustangPhoto from '@/static/image/mustang.jpg';
 
 const members = [
   {
@@ -13,6 +14,12 @@ const members = [
     name: 'MORI HN',
     role: 'Designer',
     avatar: morihnPhoto,
+    link: 'https://mori.hncore.website',
+  },
+  {
+    name: 'MUSTANG',
+    role: 'The art of making with Metal',
+    avatar: amirMustangPhoto,
     link: 'https://mori.hncore.website',
   },
 ];
