@@ -20,7 +20,7 @@ const members = [
     name: 'MUSTANG',
     role: 'The art of making with Metal',
     avatar: amirMustangPhoto,
-    link: 'https://mori.hncore.website',
+    link: 'https://mustang.hncore.website',
   },
 ];
 
