@@ -3,8 +3,7 @@ import { cn } from '@/lib/utils';
 export const Logo = ({ className }: { className?: string }) => {
   return (
     <div className={cn('font-bold text-lg flex items-center', className)}>
-      <span className="text-primary">HN</span>
-      <span className="ml-1 text-muted-foreground">Core</span>
+      <img src='/logo.png' className='w-[3.5rem] h-[4.1rem]'/>
     </div>
   );
 };
